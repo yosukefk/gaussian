@@ -1,3 +1,7 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "gaussian"
 version = "0.0.1"
@@ -13,6 +17,7 @@ classifiers = [
 ]
 license = "MIT"
 license-files = ["LICEN[CS]E*"]
+dependencies = ["numpy"]
 
 [project.urls]
 Homepage = "https://github.com/yosukefk/gaussian"
